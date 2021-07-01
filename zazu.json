@@ -5,6 +5,14 @@
   "blocks": {
     "input": [
       {
+        "id": "inspectTip",
+        "type": "PrefixScript",
+        "prefix": "insp",
+        "space": true,
+        "args": "Required",
+        "script": "src/inspectTip.js"
+      },
+      {
         "id": "inspect",
         "type": "PrefixScript",
         "prefix": "insp",
