@@ -29,6 +29,19 @@
         "args": "Required",
         "script": "src/terra.js",
         "connections": ["Copy"]
+      },
+      {
+        "id": "global",
+        "type": "RootScript",
+        "script": "src/global.js",
+        "debounce": 500,
+        "connections": ["Browse"]
+      },
+      {
+        "id": "globalTip",
+        "type": "RootScript",
+        "script": "src/globalTip.js",
+        "debounce": 500
       }
     ],
     "output": [

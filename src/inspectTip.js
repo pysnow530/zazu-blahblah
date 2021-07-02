@@ -11,7 +11,7 @@ module.exports = (pluginContext) => {
                     resolve([{
                         'icon': 'fa-hourglass-half',
                         'title': '已开始日志查询，请等待查询结果',
-                        'subtitle': '有的日志查询可能较久，极端情况超过10s（优化中。。）',
+                        'subtitle': '有的日志查询可能较久，极端情况超过20s（优化中。。）',
                     }])
                 } else {
                     resolve([])
